@@ -19,5 +19,6 @@ private class battery extends Equipment {
         this.maxcycleCount = maxcycleCount;
         this.stateofhealth = stateofhealth;
     }
+    h
     
 }
