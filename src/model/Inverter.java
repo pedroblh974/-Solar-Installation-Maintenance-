@@ -8,8 +8,8 @@ public class Inverter extends Equipment {
     private double frequencyHz;
     private int phases;                         
 
-    public Inverter(String type, double ratedPowerKw, double maxInputVoltage, double maxInputCurrent, double outputVoltage, double efficiency, double frequencyHz, int phases) {
-        super();
+    public Inverter(String type, double ratedPowerKw, double maxInputVoltage, double maxInputCurrent, double outputVoltage, double efficiency, double frequencyHz, int phases ,String id, String name, String model,String installationId,boolean status,String lastMaintenanceDate) {
+        super(id, name, model, installationId, status, lastMaintenanceDate);
         this.type = type;   
         this.ratedPowerKw = ratedPowerKw;
         this.maxInputVoltage = maxInputVoltage;

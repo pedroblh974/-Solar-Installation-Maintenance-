@@ -1,4 +1,4 @@
-public class Panel extends Equipment {
+private class Panel extends Equipment {
     private double ratedPowerW;
     private String type;
     private double voltageVmp;
@@ -8,9 +8,8 @@ public class Panel extends Equipment {
     private double efficiency;
     private double tilt;
 
-    public Panel(String name, double ratedPowerW, String type, double voltageVmp, double currentImp,
-                 double openCircuitVoltage, double shortCircuitCurrent, double efficiency, double tilt) {
-        super(name);
+    public Panel(String name, double ratedPowerW, String type, double voltageVmp, double currentImp,double openCircuitVoltage, double shortCircuitCurrent, double efficiency, double tilt ,String id, String name, String model,String installationId,boolean status,String lastMaintenanceDate) {
+        super(id, name, model, installationId, status, lastMaintenanceDate);
         this.ratedPowerW = ratedPowerW;
         this.type = type;
         this.voltageVmp = voltageVmp;
