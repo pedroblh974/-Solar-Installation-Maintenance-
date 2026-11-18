@@ -7,7 +7,7 @@ class Installation {
 
 
   public Installation(String id, String name, double capacity, String location) {
-    this. = id;
+    this.id = id;
     this.name = name;
     this.capacity = capacity;
     this.location = location;
