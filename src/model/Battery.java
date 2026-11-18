@@ -1,47 +1,55 @@
-private class Battery extends Equipment {
+public class Battery extends Equipment {
     private double capacity;
     private double normalVoltage;
     private double maxChargeCurrent;
     private double maxDischargeCurrent;
     private double depthOfDischarge;
-    private double cycleCount;
-    private double maxcycleCount;
-    private double stateofhealth;
+    private int cycleCount;
+    private int maxCycleCount;
+    private double stateOfHealth;   
 
-    public Battery(String name, double capacity, double normalVoltage, double maxChargeCurrent, double maxDischargeCurrent, double depthOfDischarge, double cycleCount, double maxcycleCount, double stateofhealth) {
-        super(name);
+    public Battery(String id, String name, String model, String installationId,boolean status, String lastMaintenanceDate,double capacity, double normalVoltage,double maxChargeCurrent, double maxDischargeCurrent,double depthOfDischarge, int cycleCount,int maxCycleCount, double stateOfHealth){
+        super(id, name, model, installationId, status, lastMaintenanceDate);
         this.capacity = capacity;
         this.normalVoltage = normalVoltage;
         this.maxChargeCurrent = maxChargeCurrent;
         this.maxDischargeCurrent = maxDischargeCurrent;
         this.depthOfDischarge = depthOfDischarge;
         this.cycleCount = cycleCount;
-        this.maxcycleCount = maxcycleCount;
-        this.stateofhealth = stateofhealth;
+        this.maxCycleCount = maxCycleCount;
+        this.stateOfHealth = stateOfHealth;
     }
-    public void getcapacity() {
+
+        public double getCapacity() {
         return capacity;
-    } 
-    public void getnormalVoltage() {
+    }
+
+    public double getNormalVoltage() {
         return normalVoltage;
-    } 
-    public void getmaxChargeCurrent() {
+    }
+
+    public double getMaxChargeCurrent() {
         return maxChargeCurrent;
     }
-    public void getmaxDischargeCurrent() {
+
+    public double getMaxDischargeCurrent() {
         return maxDischargeCurrent;
     }
-    public void getdepthOfDischarge() {
+
+    public double getDepthOfDischarge() {
         return depthOfDischarge;
     }
-    public void getcycleCount() {
+
+    public int getCycleCount() {
         return cycleCount;
     }
-    public void getmaxcycleCount() {
-        return maxcycleCount;
+
+    public int getMaxCycleCount() {
+        return maxCycleCount;
     }
-    public void getstateofhealth() {
-        return stateofhealth;
+
+    public double getStateOfHealth() {
+        return stateOfHealth;
     }
     
     

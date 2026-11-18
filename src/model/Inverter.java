@@ -1,4 +1,4 @@
-class Inverter extends Equipment {
+public class Inverter extends Equipment {
     private String type;
     private double ratedPowerKw;
     private double maxInputVoltage;
