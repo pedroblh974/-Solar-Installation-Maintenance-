@@ -13,7 +13,25 @@ class Installation {
     this.location = location;
     this.status = false;
   }
+  public String getId() {
+    return id;
+  }
 
- 
+  public String getName() {
+    return name;
+  }
+
+  public double getCapacity() {
+    return capacity;
+  }
+
+  public String getLocation() {
+    return location;
+  }
+
+  public boolean isStatus() {
+    return status;
+  }
+} 
 
     

@@ -19,4 +19,29 @@ private class Panel extends Equipment {
         this.efficiency = efficiency;
         this.tilt = tilt;
     }
+    public double getRatedPowerW() {
+        return ratedPowerW;
+    }
+    public String getType() {
+        return type;
+    }
+    public double getVoltageVmp() {
+        return voltageVmp;
+    }
+    public double getCurrentImp() {
+        return currentImp;
+    }
+    public double getOpenCircuitVoltage() {
+        return openCircuitVoltage;
+    }
+    public double getShortCircuitCurrent() {
+        return shortCircuitCurrent;
+    }
+    public double getEfficiency() {
+        return efficiency;
+    }
+    public double getTilt() {
+        return tilt;
+    }
+    
 } 
