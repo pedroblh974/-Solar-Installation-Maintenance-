@@ -18,8 +18,8 @@ class InstallationRepository {
     public List<Installation> getAllInstallations() {
         return new ArrayList<>(installationList);
     }
-
     public void removeInstallation(String id) {
         installationList.removeIf(installation -> installation.getId().equals(id));
     }
+    
 }

@@ -1,4 +1,4 @@
-class Installation {
+public class Installation {
   private String id;
   private String name;
   private double capacity;
