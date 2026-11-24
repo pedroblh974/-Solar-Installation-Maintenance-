@@ -22,3 +22,4 @@ class EquipmentRepository {
         equipmentList.removeIf(equipment -> equipment.getId().equals(id));
     }
 }
+}
