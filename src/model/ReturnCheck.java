@@ -1,4 +1,4 @@
-private class ReturnCheck {
+public class ReturnCheck {
     private String id;
     private String inteventionId;
     private String checkDate;

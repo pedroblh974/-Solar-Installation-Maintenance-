@@ -1,4 +1,4 @@
-private class Intervention {
+public class Intervention {
     private String id;
     private String anomalyId;
     private String technician;
@@ -20,31 +20,31 @@ private class Intervention {
         this.cost = cost;
         this.durationHours = durationHours;
     }
-    public void getid() {
+    public String getId() {
         return id;
     }
-    public void getanomalyId() {
+    public String getAnomalyId() {
         return anomalyId;
     }
-    public void gettechnician() {
+    public String getTechnician() {
         return technician;
     }
-    public void getstartDate() {
+    public String getStartDate() {
         return startDate;
     }
-    public void gettype() {
+    public String getType() {
         return type;
     }
-    public void getdescription() {
+    public String getDescription() {
         return description;
     }
-    public void getpartReplaced() {
+    public String getPartReplaced() {
         return partReplaced;
     }
-    public void getcost() {
+    public double getCost() {
         return cost;
     }
-    public void getdurationHours() {
+    public double getDurationHours() {
         return durationHours;
     }
     

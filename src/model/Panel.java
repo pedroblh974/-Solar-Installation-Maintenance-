@@ -1,4 +1,4 @@
-private class Panel extends Equipment {
+public class Panel extends Equipment {
     private double ratedPowerW;
     private String type;
     private double voltageVmp;
